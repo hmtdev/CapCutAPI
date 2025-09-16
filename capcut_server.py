@@ -1,7 +1,6 @@
 import requests
 from flask import Flask, request, jsonify, Response
 from datetime import datetime
-import pyJianYingDraft as draft
 from pyJianYingDraft.metadata.animation_meta import Intro_type, Outro_type, Group_animation_type
 from pyJianYingDraft.metadata.capcut_animation_meta import CapCut_Intro_type, CapCut_Outro_type, CapCut_Group_animation_type
 from pyJianYingDraft.metadata.transition_meta import Transition_type
